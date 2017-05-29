@@ -8,7 +8,7 @@ import VideoDetail from './components/video_detail';
 
 const API_KEY = "AIzaSyDnRltxckA3hoaOSNMV4gAyH77cZpq_R8s";
 
-// Create a new component, which should produce some HTML.
+// Create a new React component, which should produce some HTML.
 class App extends Component {
     constructor(props) {
         super(props);
@@ -30,5 +30,5 @@ class App extends Component {
     }
 }
 
-// Take the generated HTML and add it to the DOM
+// Take the generated HTML created and add it to the DOM
 ReactDOM.render(<App />, document.querySelector('.container'));
