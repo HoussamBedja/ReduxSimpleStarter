@@ -26,7 +26,7 @@ class App extends Component {
             this.setState({
                 videos: videos,
                 selectedVideo: videos[0]
-            }); // same as this.setState({videos: videos}) and only works if both names are the same
+            });
         });
     }
 
